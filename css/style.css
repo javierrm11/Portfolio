@@ -1,0 +1,11 @@
+@import url(./header.css);
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; /*Conseguimos que las cajas no se desborden*/
+}
+
+#page-initial{
+    
+}
