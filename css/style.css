@@ -54,6 +54,56 @@ h2{
     filter: invert(1);
     transition: filter 0.1s ease-in-out;
 }
+#page-initial-info{
+    margin: 5% 10%;
+    text-align: -webkit-center;
+}
+
+#page-initial-info .subtitle {
+    font-size: 1.5vw;
+    font-family: system-ui;
+    font-weight: 100;
+    color: rgb(33, 33, 33);
+    text-transform: uppercase;
+    margin-bottom: 1vw;
+}
+#page-initial-info h3{
+    font-size: 3vw;
+    font-family: system-ui;
+    font-weight: bolder;
+    color: black;
+    width: 67%;
+    text-align: center;
+}
+#p-info-text{
+    font-size: 1.5vw;
+    font-family: system-ui;
+    font-weight: 100;
+    color: rgb(33, 33, 33);
+    margin-top: 4vw;
+    width: 40%;
+}
+#p-mas{
+    font-size: 1.5vw;
+    font-family: system-ui;
+    color: rgb(33, 33, 33);
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+}
+#page-initial-info a{
+    text-decoration: none;
+    font-size: 2vw;
+    font-family: monospace;
+    text-transform: uppercase;
+    padding: 1.5vw;
+    border: 2px solid black;
+    color: black;
+}
+#page-initial-info a:hover{
+    background-color: black;
+    color: white;
+}
+
 
 
 
