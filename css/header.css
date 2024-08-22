@@ -1,7 +1,7 @@
 /* Header */
 header{
-    background-color: rgb(54 47 101);
-    border-bottom: 6px solid #bfbfbf;
+    background-color: rgb(54 47 101 / 73%);
+    border-bottom: 6px solid #bfbfbf9a;
 }
 header .title {
     font-size: 3vw;
@@ -26,6 +26,6 @@ nav a{
     align-self: center;
 }
 nav a:hover{
-    background-color: rgb(178, 169, 239);
-    box-shadow: 0px 6px 0px rgb(92, 84, 144);
+    background-color: rgb(178 169 239 / 33%);
+    box-shadow: 0px 6px 0px rgba(92, 84, 144, 0.621);
 }

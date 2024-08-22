@@ -7,5 +7,74 @@
 }
 
 #page-initial{
-    
+    background: url(../images/programacion.png);
+    height: 100vh;
+    background-position: right;
+}
+#title{
+    align-content: center;
+    height: 85vh;
+    text-align: -webkit-center;
+}
+h1{
+    font-family: monospace;
+    font-size: 4vw;
+    font-weight: bolder;
+    color: white;
+    width: fit-content;
+    padding: 4vw;
+    background-color: rgb(129 115 223);
+}
+h2{
+    font-family: monospace;
+    font-weight: 100;
+    margin-top: 3vw;
+    color: white;
+    font-size: 2vw;
+    letter-spacing: 6px;
+    width: fit-content;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 0.15em solid rgb(129 115 223);
+    animation: typing 4s steps(38) 1s 1 normal both, blink 1s steps(1) infinite;
+}
+
+#title img{
+    width: 4vw;
+    position: absolute;
+    bottom: 50px;
+    left: 48.5%;
+    padding: 1%;
+    background-color: white;
+
+    filter: invert(0);
+    transition: filter 0.1s ease-in-out;
+}
+#title img:hover{
+    filter: invert(1);
+    transition: filter 0.1s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes typing {
+    from {
+        width: 0ch;
+    }
+    to {
+        width: 38ch;
+    }
 }
