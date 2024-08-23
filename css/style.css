@@ -109,7 +109,7 @@ h2{
     margin-top: 2vw;
 }
 #text-transition{
-    background-color: rgb(60 50 126);
+    background-color: rgb(129 115 223);
     padding: 2vw;
     width: 100%;
     margin-top: 4vw;
@@ -129,23 +129,68 @@ h2{
 .flex-info{
     width: 50%;
     margin: 3vw;
+    display: flex;
 }
 .flex-info h4{
-    font-size: 2vw;
-    font-family: monospace;
-    font-weight: lighter;
+    font-size: 3vw;
+    font-family: system-ui;
+    font-weight: 600;
     color: #252525;
+    width: 50%;
+    margin-right: 5vw;
 }
-.line{
-    width: 15%;
-    height: 0.3vw;
-    background-color: rgb(60 50 126);
-    margin: 2vw 0;
+.flex-info div{
+    width: 40%;
 }
+#line {
+    width: 3vw;
+    height: 0.5vw;
+    margin: 1vw 0;
+    background-color: rgb(129 115 223);
+}
+.flex-info h5{
+    font-size: 1.5vw;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #252525;
+    margin-bottom: 1vw;
+}
+
 .flex-info p{
     font-size: 1.5vw;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #252525;
+    font-weight: 100;
+}
+
+#estadist{
+    background: url(../images/negro.jpg);
+    display: flex;
+    padding: 8vw 10vw;
+    background-size: cover;
+}
+.estadist-class{
+    width: 33.33vw;
+    text-align-last: center;
+}
+.estadist-class img{
+    width: 5vw;
+    opacity: 0.6;
+    filter: invert(1);
+}
+.estadist-class h6{
+    font-size: 2vw;
+    text-align: center;
+    color: #d9d9d9;
+    font-family: system-ui;
+    text-transform: uppercase;
+    font-weight:200;
+}
+.estadist-class p{
+    font-size: 6vw;
+    text-align: center;
+    color: white;
+    margin: 1vw 0;
+    font-family: fantasy;
 }
 
 
