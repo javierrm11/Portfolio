@@ -327,9 +327,6 @@ h2{
     h1{
         font-size: 6vw;
     }
-    h2{
-        font-size: 4vw;
-    }
     #page-initial-info {
         margin: 8% 10%;
     }
@@ -337,7 +334,7 @@ h2{
         font-size: 2vw;
         margin-bottom: 2vw;
     }
-    #page-initial-info h3 {
+    #page-initial-info h3, #servicios h3 {
         font-size: 5vw;
     }
     #p-info-text {
@@ -367,7 +364,7 @@ h2{
         padding: 3vw;
         margin: 3vw 0;
     }
-    .flex-info h4 {
+    .flex-info h4, #objetivo h3, h2, .paso-title {
         font-size: 4vw;
     }
     .flex-info h5 {
@@ -376,6 +373,24 @@ h2{
     .flex-info p {
         font-size: 2vw;
     }
+
+    #objetivo h3 {
+        margin-bottom: 4vw;
+    }
+    
+    #objetivo p, .paso-desc, #servicios p, #contactame h6, .grupo-loca p {
+        font-size: 2vw;
+    }
+    #pasos {
+        margin: 8vw 5vw;
+    }
+    #contactame a {
+        font-size: 3vw;
+    }
+    .grupo-loca img {
+        width: 20vw;
+    }
+
 }
 
 
