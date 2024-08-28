@@ -8,7 +8,6 @@
 
 #page-initial{
     background: url(../images/programacion.png);
-    height: 100vh;
     background-position: right;
 }
 #title{
@@ -42,7 +41,7 @@ h2{
 #title img{
     width: 4vw;
     position: absolute;
-    bottom: 50px;
+    bottom: 5vw;
     left: 48.5%;
     padding: 1%;
     background-color: white;
@@ -163,10 +162,9 @@ h2{
 }
 
 #estadist{
-    background: url(../images/negro.jpg);
+    background-color: #141414;
     display: flex;
     padding: 8vw 10vw;
-    background-size: cover;
 }
 .estadist-class{
     width: 33.33vw;
@@ -212,7 +210,7 @@ h2{
 }
 
 #pasos{
-    margin: 3vw 0;
+    margin: 3vw 5vw;
     display: grid;
     width: fit-content;
     display: grid;
@@ -221,7 +219,7 @@ h2{
     row-gap: 1.8rem;
 }
 .paso{
-    width: 24.1vw;
+    width: 22vw;
     text-align: -webkit-center;
 }
 .paso-title{
@@ -319,7 +317,66 @@ h2{
     text-transform: uppercase;
 }
 
-
+@media all and (max-width:1050px){
+    #title {
+        height: 75vh;
+    }
+    #title img {
+        display: none;
+    }
+    h1{
+        font-size: 6vw;
+    }
+    h2{
+        font-size: 4vw;
+    }
+    #page-initial-info {
+        margin: 8% 10%;
+    }
+    #page-initial-info .subtitle {
+        font-size: 2vw;
+        margin-bottom: 2vw;
+    }
+    #page-initial-info h3 {
+        font-size: 5vw;
+    }
+    #p-info-text {
+        font-size: 2.5vw;
+        width: 50%;
+    }
+    #p-mas {
+        font-size: 2vw;
+        margin-bottom: 6vw;
+    }
+    #page-initial-info a {
+        font-size: 3vw;
+        padding: 2vw;
+    }
+    #text-transition {
+        padding: 3vw;
+        font-size: 2vw;
+    }
+    .container-flex {
+        flex-direction: column;
+    }
+    .container-flex img {
+        width: 100%;
+    }
+    .flex-info {
+        width: 100%;
+        padding: 3vw;
+        margin: 3vw 0;
+    }
+    .flex-info h4 {
+        font-size: 4vw;
+    }
+    .flex-info h5 {
+        font-size: 2.5vw;
+    }
+    .flex-info p {
+        font-size: 2vw;
+    }
+}
 
 
 
