@@ -481,7 +481,109 @@ h2{
     }
 }
 
+@media all and (max-width:550px){
+    #title {
+        height: 50vh;
+    }
+    h1 {
+        font-size: 8vw;
+    }
+    h2 {
+        width: fit-content;
+        white-space: normal;
+        animation: typing2 4s steps(30) 1s 1 normal both, blink 1s steps(1) infinite;
+    }
+    .flex-info h4, #objetivo h3, h2, .paso-title {
+        font-size: 5vw;
+    }
+    #page-initial-info .subtitle {
+        font-size: 4vw;
+        margin-bottom: 5vw;
+    }
+    #page-initial-info h3, #servicios h3 {
+        font-size: 7vw;
+    }
+    #p-info-text {
+        font-size: 4.5vw;
+        width: 90%;
+        margin-top: 8vw;
+    }
+    #p-mas {
+        font-size: 4vw;
+        margin-bottom: 8vw;
+        margin-top: 12vw;
+    }
+    #page-initial-info a {
+        font-size: 5vw;
+        padding: 3vw;
+    }
+    #text-transition {
+        font-size: 4vw;
+    }
+    .flex-info {
+        flex-direction: column;
+    }
+    .flex-info h4{
+        width: 100%;
+    }
+    .flex-info h5 {
+        font-size: 4.5vw;
+        margin-bottom: 3vw;
+    }
+    .flex-info div {
+        width: 100%;
+        margin: 5vw 0;
+    }
+    #line {
+        width: 10vw;
+    }
+    .flex-info p {
+        font-size: 4vw;
+    }
+    .estadist-class img {
+        width: 9vw;
+    }
+    .estadist-class p {
+        font-size: 12vw;
+    }
+    .estadist-class h6 {
+        font-size: 4vw;
+    }
+    #objetivo p, .paso-desc, #servicios p, #contactame h6, .grupo-loca p {
+        font-size: 3.5vw;
+    }
+    .line-2 {
+        width: 5vw;
+        height: 0.6vw;
+    }
+    #servicios h3 {
+        margin-bottom: 5vw;
+    }
+    #servicios p {
+        width: 90%;
+        margin-bottom: 3vw;
+    }
+    #servicios {
+        margin: 12vw 0;
+    }
+    #contactame h6 {
+        margin-bottom: 9vw;
+    }
+    #contactame a {
+        font-size: 4.5vw;
+        padding: 2.5vw;
+    }
+    #line3 {
+        height: 0.6vw;
+    }
+    .grupo-loca {
+        margin-bottom: 10vw;
+    }
+    .grupo-loca img {
+        width: 25vw;
+    }
 
+}
 
 
 
@@ -494,5 +596,14 @@ h2{
     }
     to {
         width: 39ch;
+    }
+}
+
+@keyframes typing2 {
+    from {
+        width: 0ch;
+    }
+    to {
+        width: 20ch;
     }
 }
