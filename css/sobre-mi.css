@@ -143,3 +143,82 @@ h1{
     }
 
 }
+
+@media all and (max-width:750px){
+    #page-initial-div {
+        padding: 12vw 0;
+    }
+    h2{
+        font-size: 4vw;
+    }
+    h1 {
+        font-size: 10vw;
+    }
+    #page-initial-div p {
+        font-size: 3.5vw;
+    }
+    #historia h4 {
+        font-size: 7vw;
+    }
+    #historia p {
+        font-size: 2.5vw;
+    }
+    #curriculum img {
+        width: 7vw;
+        height: fit-content;
+    }
+    #curriculum h5 {
+        margin: 2vw 0;
+        text-align: center;
+        width: 38vw;
+        font-size: 4vw;
+    }
+    #curriculum a {
+        margin-left: 0;
+        width: 25vw;
+        text-align: center;
+        font-size: 3vw;
+    }
+    #curriculum {
+        padding: 5vw 10vw;
+    }
+}
+@media all and (max-width:550px){
+    #page-initial-div {
+        padding: 14vw 0;
+    }
+    h2{
+        font-size: 5vw;
+    }
+    h1 {
+        font-size: 11vw;
+    }
+    #page-initial-div p {
+        font-size: 4vw;
+    }
+    #subtitle h3 {
+        font-size: 3vw;
+    }
+    #historia h4 {
+        font-size: 10vw;
+        margin: 8vw 0 4vw 0;
+    }
+    #historia p {
+        font-size: 3.5vw;
+        margin-bottom: 4vw;
+    }
+    #curriculum img {
+        width: 10vw;
+    }
+    #curriculum h5 {
+        font-size: 6vw;
+        margin: 3vw 0;
+    }
+    #curriculum a {
+        width: 38vw;
+        font-size: 5vw;
+    }
+    #curriculum {
+        padding: 5vw 10vw;
+    }
+}
