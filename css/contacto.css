@@ -111,3 +111,151 @@ h2{
 .contact-form button:hover {
     background-color: #333;
 }
+
+#redes-sociales {
+    display: grid;
+    width: fit-content;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: .8vw;
+    row-gap: 1.8rem;
+}
+#redes-sociales img{
+    width: 3vw;
+    margin-right: 1vw;
+    object-fit: contain;
+}
+
+iframe{
+    width: 85vw;
+    margin: 5vw;
+
+}
+
+@media all and (max-width:1050px){
+    #page-initial-div {
+        padding: 9vw 0;
+    }
+    h1 {
+        font-size: 4.5vw;
+    }
+    #page-initial-div p {
+        margin: 3vw 25vw 5vw 25vw;
+        font-size: 2vw;
+    }
+    #page-initial-div a {
+        font-size: 2vw;
+        padding: 1vw 3vw;
+    }
+    h2{
+        font-size: 4vw;
+    }
+    #metodos p {
+        color: rgb(79 79 79);
+        font-size: 1.8vw;
+        margin-bottom: 1.8vw;
+    }
+    #redes-sociales {
+        column-gap: .2vw;
+    }
+    #redes-sociales img {
+        width: 4vw;
+    }
+    .contact-form input, .contact-form textarea {
+        font-size: 1.8vw;
+    }
+    .contact-form button {
+        font-size: 1.8vw;
+    }
+}
+@media all and (max-width:750px){
+    #page-initial-div {
+        padding: 12vw 0;
+    }
+    h1 {
+        font-size: 6vw;
+    }
+    #page-initial-div p {
+        margin: 4vw 10vw 6vw 10vw;
+        font-size: 2.5vw;
+    }
+    #page-initial-div a {
+        font-size: 3vw;
+        padding: 1.5vw 3vw;
+    }
+    #contacto{
+        flex-direction: column;
+        margin: 10vw 10vw 5vw;
+    }
+    #metodos,#formulario{
+        width: 100%;
+    }
+    #metodos{
+        margin-bottom: 6vw;
+    }
+    h2{
+        font-size: 5vw;
+    }
+    #metodos p {
+        color: rgb(79 79 79);
+        font-size: 2.5vw;
+        margin-bottom: 1.8vw;
+    }
+    #redes-sociales {
+        column-gap: 3.2vw;
+    }
+    #redes-sociales img {
+        width: 6vw;
+    }
+    .contact-form {
+        width: 100%;
+        padding: 4vw;
+        border-radius: 10px;
+    }
+    .contact-form input, .contact-form textarea {
+        font-size: 2.5vw;
+        margin-bottom: 3vw;
+        padding: 2vw;
+    }
+    .contact-form button {
+        font-size: 3.5vw;
+        padding: 2.5vw;
+    }
+}
+@media all and (max-width:550px){
+    #page-initial-div {
+        padding: 14vw 0;
+    }
+    h1 {
+        font-size: 7vw;
+    }
+    #page-initial-div p {
+        margin: 5vw 10vw 7vw 10vw;
+        font-size: 3vw;
+    }
+    #page-initial-div a {
+        font-size: 4vw;
+        padding: 2vw 3vw;
+    }
+    
+    h2{
+        font-size: 6vw;
+    }
+    #metodos p {
+        font-size: 3.5vw;
+    }
+    #redes-sociales img {
+        width: 8vw;
+    }
+    .contact-form {
+        padding: 6vw;
+    }
+    .contact-form input, .contact-form textarea {
+        font-size: 3.5vw;
+        margin-bottom: 5vw;
+        padding: 3vw;
+    }
+    .contact-form button {
+        font-size: 4.5vw;
+        padding: 3.5vw;
+    }
+}
