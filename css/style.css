@@ -5,8 +5,8 @@
 }
 
 #page-initial{
-    background: url(../images/programacion.png);
-    background-position: right;
+    background: url(../images/fondo.jpg);
+    background-size: cover;
 }
 #title{
     align-content: center;
