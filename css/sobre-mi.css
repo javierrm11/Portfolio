@@ -78,6 +78,7 @@ h1{
 #curriculum img {
     width: 4vw;
     height: fit-content;
+    filter: invert(1);
 }
 
 #curriculum h5 {
