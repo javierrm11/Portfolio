@@ -1,0 +1,51 @@
+footer{
+    margin: 10vw 10vw 3vw 10vw;
+}
+
+#contenedor-footer{
+    display: flex;
+}
+
+footer nav{
+    display: flex;
+    flex-direction: column;
+    width: 33.33%;
+}
+footer .contenido{
+    width: 33.33%;
+    background: transparent;
+}
+.redes-sociales-footer{
+    display: flex;
+    flex-direction: column;
+}
+
+#copyright{
+    margin: 2vw 0 0 0;
+    text-align: center;
+}
+
+#copyright p{
+    font-size: 1.5vw;
+    font-family: 'Rajdhani', sans-serif;
+    color: rgba(240, 240, 240, 0.933);
+}
+
+h4{
+    color: rgb(129 115 223);
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.5vw;
+    margin-bottom: 1.5vw;
+}
+
+a,.contenido p{
+    font-size: 1.5vw;
+    font-family: 'Rajdhani', sans-serif;
+    color: rgba(240, 240, 240, 0.933);
+    text-decoration: none;
+    padding: 1vw;
+}
+a:hover{
+    color: rgb(129 115 223);
+}
+
