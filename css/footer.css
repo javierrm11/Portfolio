@@ -4,6 +4,8 @@ footer{
 
 #contenedor-footer{
     display: flex;
+    flex-wrap: wrap;
+    place-content: center;
 }
 
 footer nav{
@@ -49,3 +51,90 @@ a:hover{
     color: rgb(129 115 223);
 }
 
+@media all and (max-width:1050px){
+    #contenedor-footer {
+        text-align: center;
+        margin-bottom: 5vw;
+    }
+
+    footer nav{
+        width: 50%;
+    }
+
+    footer .contenido{
+        width: 50%;
+        background: transparent;
+    }
+
+    h4 {
+        font-size: 3.5vw;
+    }
+
+    a, .contenido p {
+        font-size: 2.5vw;
+        padding: 1.5vw;
+    }
+
+    footer .contacto {
+        margin-top: 4vw;
+    }
+
+    #copyright p {
+        font-size: 2.5vw;
+    }
+    
+}
+
+@media all and (max-width:750px){
+    #contenedor-footer {
+        margin-bottom: 7vw;
+    }
+
+
+    h4 {
+        font-size: 4vw;
+    }
+
+    a, .contenido p {
+        font-size: 3vw;
+        padding: 2vw;
+    }
+
+    footer .contacto {
+        margin-top: 6vw;
+    }
+
+    #copyright p {
+        font-size: 3vw;
+    }
+    
+}
+
+@media all and (max-width:550px){
+    footer {
+        margin: 20vw 10vw 3vw 10vw;
+    }
+    
+    #contenedor-footer {
+        margin-bottom: 9vw;
+    }
+
+
+    h4 {
+        font-size: 5vw;
+    }
+
+    a, .contenido p {
+        font-size: 4vw;
+        padding: 3vw;
+    }
+
+    footer .contacto {
+        margin-top: 7vw;
+    }
+
+    #copyright p {
+        font-size: 4vw;
+    }
+    
+}
