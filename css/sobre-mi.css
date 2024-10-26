@@ -64,11 +64,49 @@ h1{
     font-size: 1.5vw;
     margin-bottom: 2vw;
 }
-#historia img{
-    width: 40vw;
-    margin: 0 5vw 0 0;
-    height: 19vw;
-    object-fit: contain;
+.carousel-container {
+    position: relative;
+    width: 50vw;
+    height: 25vw;
+    overflow: hidden;
+    margin-right: 5vw;
+    margin-top: 8vw;
+}
+
+.carousel-slide {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-slide img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+#historia-p {
+    width: 50vw;
 }
 #curriculum{
     display: flex;

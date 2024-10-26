@@ -40,7 +40,7 @@ h4{
     margin-bottom: 1.5vw;
 }
 
-a,.contenido p{
+footer a,.contenido p{
     font-size: 1.5vw;
     font-family: 'Rajdhani', sans-serif;
     color: rgba(240, 240, 240, 0.933);
@@ -70,7 +70,7 @@ a:hover{
         font-size: 3.5vw;
     }
 
-    a, .contenido p {
+    footer a, .contenido p {
         font-size: 2.5vw;
         padding: 1.5vw;
     }
@@ -95,7 +95,7 @@ a:hover{
         font-size: 4vw;
     }
 
-    a, .contenido p {
+    footer a, .contenido p {
         font-size: 3vw;
         padding: 2vw;
     }
@@ -121,10 +121,10 @@ a:hover{
 
 
     h4 {
-        font-size: 5vw;
+        font-size: 4.5vw;
     }
 
-    a, .contenido p {
+    footer a, .contenido p {
         font-size: 4vw;
         padding: 3vw;
     }

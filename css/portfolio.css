@@ -147,11 +147,17 @@ h2 {
     height: 0.1vw;
     background-color: rgba(240, 240, 240, 0.933);
 }
+#datos {
+    display: flex;
+    margin: 20vh 10vh ;
+    justify-content: space-evenly;
+}
+
 .grupo-loca{
     margin-bottom: 3vw;
 }
 .grupo-loca img{
-    width: 14vw;
+    width: 10vw;
 }
 
 .grupo-loca p{
@@ -208,8 +214,11 @@ h2 {
     #contactame a {
         font-size: 3vw;
     }
+    #pasos {
+        margin: 8vw 5vw;
+    }
     .grupo-loca img {
-        width: 20vw;
+        width: 12vw;
     }
     #contactame h6, .grupo-loca p {
         font-size: 2vw;
@@ -276,6 +285,17 @@ h2 {
     }
     .grupo-loca p {
         font-size: 2.5vw;
+    }
+    #datos{
+        flex-direction: column;
+        margin: 20vh 10vh 10vh 10vh;
+
+    }
+    .grupo-loca {
+        margin-bottom: 15vh;
+    }
+    .grupo-loca img {
+        width: 14vw;
     }
 }
 @media all and (max-width:550px){
@@ -345,6 +365,6 @@ h2 {
         margin-bottom: 10vw;
     }
     .grupo-loca img {
-        width: 25vw;
+        width: 18vw;
     }
 }

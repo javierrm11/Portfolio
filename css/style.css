@@ -307,17 +307,16 @@ h2{
     border-color: rgb(129 115 223);
     color: black;
 }
-#line3{
-    margin: 12vw 0 6vw 0;
-    width: 70vw;
-    height: 0.1vw;
-    color: rgba(240, 240, 240, 0.933);
+#datos {
+    display: flex;
+    margin: 20vh 10vh ;
+    justify-content: space-evenly;
 }
 .grupo-loca{
     margin-bottom: 3vw;
 }
 .grupo-loca img{
-    width: 14vw;
+    width: 10vw;
 }
 
 .grupo-loca p{
@@ -402,7 +401,7 @@ h2{
         font-size: 3vw;
     }
     .grupo-loca img {
-        width: 20vw;
+        width: 12vw;
     }
 
 }
@@ -498,8 +497,16 @@ h2{
         font-size: 3.5vw;
         padding: 2vw;
     }
-    #line3 {
-        height: 0.4vw;
+    #datos{
+        flex-direction: column;
+        margin: 20vh 10vh 10vh 10vh;
+
+    }
+    .grupo-loca {
+        margin-bottom: 15vh;
+    }
+    .grupo-loca img {
+        width: 14vw;
     }
     
 }
@@ -624,14 +631,11 @@ h2{
         font-size: 4.5vw;
         padding: 2.5vw;
     }
-    #line3 {
-        height: 0.6vw;
-    }
     .grupo-loca {
         margin-bottom: 10vw;
     }
     .grupo-loca img {
-        width: 25vw;
+        width: 18vw;
     }
 
 }
