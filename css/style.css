@@ -181,8 +181,7 @@ h2{
 }
 .estadist-class img{
     width: 5vw;
-    opacity: 0.6;
-    filter: invert(1);
+    opacity: 0.8;
 }
 .estadist-class h6{
     font-size: 2vw;

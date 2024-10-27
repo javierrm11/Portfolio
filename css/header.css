@@ -31,8 +31,14 @@ header nav a{
 header nav a:hover{
     color: rgb(129, 115, 223);
     transform: scale(1.2);
-
 }
+/* Estilo para el enlace activo */
+.activo {
+    color: rgb(129, 115, 223); /* Color lila para el enlace activo */
+    font-weight: bold;
+    border-bottom: 2px solid rgb(129, 115, 223); /* Línea inferior para resaltar */
+}
+
 .responsive{
     display: none;
     align-content: center;
