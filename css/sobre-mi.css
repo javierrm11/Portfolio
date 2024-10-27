@@ -30,6 +30,7 @@ p{
 h2{
     font-size: 2.5vw;
     font-weight: 400;
+    color: rgb(129 115 223);
 }
 h1{
     font-size: 7vw;
@@ -37,6 +38,7 @@ h1{
 #page-initial-div p{
     font-size: 2vw;
     margin-top: 10vw;
+    color: rgb(129 115 223);
 }
 
 #subtitle{
@@ -55,7 +57,7 @@ h1{
     align-items: center;
 }
 #historia h4{
-    color: white;
+    color: rgb(129 115 223);
     font-size: 5vw;
     margin-bottom: 2vw;
 }

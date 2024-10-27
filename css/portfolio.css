@@ -31,15 +31,16 @@ h1{
 #page-initial-div p{
     margin: 5vw 0;
     font-size: 1.5vw;
+    color: rgba(240, 240, 240, 0.933);
 }
 #proyectos{
     margin: 5vw;
     text-align: -webkit-center;
 }
 h2 {
-    color: white;
+    color: rgb(129 115 223);
     font-size: 4vw;
-    border-bottom: 4px solid rgba(240, 240, 240, 0.933);
+    border-bottom: 4px solid rgb(129 115 223);
     width: fit-content;
 }
 #proyectos-div{
@@ -87,7 +88,7 @@ h2 {
     margin: 10vw 5vw;
 }
 #habilidades h4{
-    color: white;
+    color: rgb(129 115 223);
     font-size: 3vw;
     text-align: center;
     margin-bottom: 2vw;

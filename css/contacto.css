@@ -30,7 +30,7 @@ h1{
     font-size: 4vw;
 }
 #page-initial-div p{
-    color: rgb(231, 231, 231);
+    color: rgb(129 115 223);
     margin: 2vw 25vw 4vw 25vw;
     font-size: 1.5vw;
 }
@@ -59,9 +59,9 @@ h1{
     width: 33.33%;
 }
 h2{
-    color: white;
+    color: rgb(129 115 223);
     font-size: 1.5vw;
-    font-weight: 500;
+    font-weight: bold;
     margin-bottom: 2vw;
 }
 #metodos p{

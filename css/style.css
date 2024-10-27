@@ -79,7 +79,7 @@ h2{
     font-size: 3vw;
     font-family: 'Orbitron', sans-serif;
     font-weight: bolder;
-    color: white;
+    color: rgb(129 115 223);
     width: 67%;
     text-align: center;
 }
@@ -186,7 +186,7 @@ h2{
 .estadist-class h6{
     font-size: 2vw;
     text-align: center;
-    color: rgba(240, 240, 240, 0.933);
+    color: rgb(129 115 223);
     font-family: 'Orbitron', sans-serif;
     text-transform: uppercase;
     font-weight:200;
@@ -206,7 +206,7 @@ h2{
 #objetivo h3{
     font-size: 3vw;
     font-family: 'Orbitron', sans-serif;
-    color: white;
+    color: rgb(129 115 223);
     text-align: center;
     margin-bottom: 2vw;
 }
