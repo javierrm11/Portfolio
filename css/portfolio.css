@@ -47,7 +47,6 @@ h2 {
     margin: 3vw 0;
     display: grid;
     width: fit-content;
-    display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: .8vw;
     row-gap: 1.8rem;
@@ -156,6 +155,7 @@ h2 {
 
 .grupo-loca{
     margin-bottom: 3vw;
+    flex: 1;
 }
 .grupo-loca img{
     width: 10vw;

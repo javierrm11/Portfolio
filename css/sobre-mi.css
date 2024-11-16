@@ -68,7 +68,7 @@ h1{
 }
 .carousel-container {
     position: relative;
-    width: 50vw;
+    flex: 1;
     height: 25vw;
     overflow: hidden;
     margin-right: 5vw;
@@ -81,8 +81,8 @@ h1{
 }
 
 .carousel-slide img {
-    width: 100%;
-    object-fit: cover;
+    flex: 1;
+    object-fit: scale-down;
 }
 
 .prev, .next {
@@ -108,7 +108,7 @@ h1{
     right: 0;
 }
 #historia-p {
-    width: 50vw;
+    flex: 1;
 }
 #curriculum{
     display: flex;
