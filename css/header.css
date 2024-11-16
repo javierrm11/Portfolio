@@ -1,6 +1,6 @@
 /* Header */
-header{
-    display: flex;
+header {
+    margin: 1vw 0;
 }
 header .title {
     font-size: 3.4vw;
@@ -15,9 +15,9 @@ header nav{
     display: flex;
     justify-content: center;
     margin: 0 5%;
-    width: 100%;
 }
 header nav a{
+    flex: 1;
     padding: 2.65vw 3vw;
     text-decoration: none;
     font-size: 1.6vw;
@@ -42,20 +42,20 @@ header nav a:hover{
 .responsive{
     display: none;
     align-content: center;
-    padding: 0 5%;
+    margin: 0 5%;
     padding: 2vw;
-    width: 100%;
 }
 .responsive img{
     align-self: center;
+    flex: 1;
+    max-width: max-content;
 }
 .responsive a{
     color: white;
     font-size: 3vw;
     font-family: 'Orbitron', sans-serif;
     text-decoration: none;
-    width: 90%;
-    padding-left: 5%;
+    flex: 3;
     font-weight: 600;
 
 }

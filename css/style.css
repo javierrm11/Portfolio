@@ -8,8 +8,6 @@
 }
 
 *{
-    margin: 0px;
-    padding: 0px;
     box-sizing: border-box; /*Conseguimos que las cajas no se desborden*/
 }
 body{
@@ -17,6 +15,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    margin: 0px;
 }
 
 #title{
@@ -120,7 +119,6 @@ h2{
 #text-transition{
     background-color: rgb(129 115 223);
     padding: 2vw;
-    width: 100%;
     margin-top: 4vw;
     font-size: 1.5vw;
     font-family: 'Rajdhani', sans-serif;
@@ -133,10 +131,10 @@ h2{
     display: flex;
 }
 .container-flex img{
-    width: 50%;
+    flex: 1;
 }
 .flex-info{
-    width: 50%;
+    flex: 1;
     margin: 3vw;
     display: flex;
 }
@@ -145,11 +143,11 @@ h2{
     font-family: 'Orbitron', sans-serif;
     font-weight: 600;
     color: rgb(129 115 223);
-    width: 50%;
+    flex: 5;
     margin-right: 5vw;
 }
 .flex-info div{
-    width: 40%;
+    flex: 4;
 }
 #line {
     width: 3vw;
@@ -176,8 +174,8 @@ h2{
     padding: 8vw 10vw;
 }
 .estadist-class{
-    width: 33.33vw;
-    text-align-last: center;
+    flex: 1;
+    text-align: center;
 }
 .estadist-class img{
     width: 5vw;
@@ -220,8 +218,6 @@ h2{
 
 #pasos{
     margin: 3vw 5vw;
-    display: grid;
-    width: fit-content;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: .8vw;
@@ -267,7 +263,7 @@ h2{
     text-transform: uppercase;
     letter-spacing: 7px;
     text-align: center;
-    margin-bottom: 2vw;
+    margin: 2vh 0;
     color: rgb(146 130 255);
 }
 #servicios p{
@@ -308,11 +304,12 @@ h2{
 }
 #datos {
     display: flex;
-    margin: 20vh 10vh ;
+    margin: 20vh 10vh;
     justify-content: space-evenly;
 }
 .grupo-loca{
     margin-bottom: 3vw;
+    flex: 1;
 }
 .grupo-loca img{
     width: 10vw;
