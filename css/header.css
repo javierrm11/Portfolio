@@ -1,36 +1,41 @@
 /* Header */
-header {
-    margin: 1vw 0;
+header{
+    padding: 1% 2%;
+    backdrop-filter: blur(3px);
 }
 header .title {
-    font-size: 3.4vw;
+    font-size: 3rem;
     font-family: 'Orbitron', sans-serif;
-    color: rgb(235, 235, 235);
-    align-self: center;
-    padding: 2% 4%;
+    color: rgb(129, 115, 223);
     cursor: pointer;
 }
 header nav{
-    align-content: center;
-    display: flex;
-    justify-content: center;
     margin: 0 5%;
 }
-header nav a{
+header nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header nav ul li{
+    list-style: none;
     flex: 1;
-    padding: 2.65vw 3vw;
+    transition: 1s color;
+    transition: 1s transform;
+}
+header nav a{
+    padding: 1vh 2vw;
+    text-align: center;
     text-decoration: none;
-    font-size: 1.6vw;
+    font-size: 1.5rem;
     font-family: 'Orbitron', sans-serif;
     color: rgb(235, 235, 235);
     align-self: center;
-    margin: 1vw 0;
     font-weight: bold;
-    transition: transform 0.6s ease, color 0.6s ease;
 }
-header nav a:hover{
+header nav li:hover{
     color: rgb(129, 115, 223);
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 /* Estilo para el enlace activo */
 .activo {
@@ -42,8 +47,7 @@ header nav a:hover{
 .responsive{
     display: none;
     align-content: center;
-    margin: 0 5%;
-    padding: 2vw;
+    margin: 2% 5%;
 }
 .responsive img{
     align-self: center;
@@ -52,12 +56,20 @@ header nav a:hover{
 }
 .responsive a{
     color: white;
-    font-size: 3vw;
+    font-size: 1.5rem;
     font-family: 'Orbitron', sans-serif;
     text-decoration: none;
     flex: 3;
     font-weight: 600;
 
+}
+@media all and (max-width:1310px){
+    header .title {
+        font-size: 2.3rem;
+    }
+    header nav a{
+        font-size: 1.2rem;
+    }
 }
 
 @media all and (max-width:1050px){
@@ -66,24 +78,31 @@ header nav a:hover{
     }
     #menu {
         display: none;
-        position: absolute;
         flex-direction: column;
-        top: 7.9vw;
         left: 0;
         width: 100%;
-        text-align: center;
-        background: url(../images/fondo.jpg);
-        background-size: cover;
         justify-content: center;
-        height: 93vh;
-        z-index: 100;
+        height: 60vh;
         margin: 0;
         
     }
+    #menu ul{
+        flex-direction: column;
+        padding: 0;
+    }
+    #menu ul li{
+        flex: 0 0 10vh;
+        text-align: center;
+        align-content: center;
+    }
     header nav a {
-        padding: 3%;
-        font-size: 3vw;
         font-weight: bold;
+        font-size: 1.2rem;
+    }
+    header .title{
+        font-size: 2.2rem;
+        font-weight: bolder;
+        padding: 2%;
     }
     header nav a:hover{
         background-color: transparent;
@@ -96,55 +115,8 @@ header nav a:hover{
     .responsive{
         display: flex;
     }
-    header .title{
-        font-size: 10vw;
-        font-weight: bolder;
-        padding: 2%;
-    }
     header{
         border: 0;
     }
 
-}
-@media all and (max-width:850px){
-    .responsive a{
-        font-size: 4vw;
-    }
-}
-
-@media all and (max-width:750px){
-    #menu{
-        top: 9.2vw;
-    }
-}
-
-@media all and (max-width:600px){
-    .responsive a{
-        font-size: 5vw;
-    }
-    header nav a {
-        font-size: 4vw;
-        padding: 4%;
-    }
-    header .title {
-        font-size: 12vw;
-        padding: 8%;
-    }
-}
-
-@media all and (max-width:500px){
-    .responsive a{
-        font-size: 6vw;
-    }
-    #menu {
-        top: 12vw;
-    }
-    header nav a {
-        font-size: 6vw;
-        padding: 6%;
-    }
-    header .title {
-        font-size: 14vw;
-        padding: 8%;
-    }
 }
