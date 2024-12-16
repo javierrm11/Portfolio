@@ -16,6 +16,7 @@ footer nav{
 footer .contenido{
     width: 33.33%;
     background: transparent;
+    justify-items: center;
 }
 .redes-sociales-footer{
     display: flex;
