@@ -1,5 +1,5 @@
 footer{
-    margin: 10vw 10vw 3vw 10vw;
+    margin: 10vh 10vw 0 10vw;
 }
 
 #contenedor-footer{
@@ -28,7 +28,7 @@ footer .contenido{
 }
 
 #copyright p{
-    font-size: 1.5vw;
+    font-size: 1rem;
     font-family: 'Rajdhani', sans-serif;
     color: rgba(240, 240, 240, 0.933);
 }
@@ -36,16 +36,16 @@ footer .contenido{
 h4{
     color: rgb(129 115 223);
     font-family: 'Orbitron', sans-serif;
-    font-size: 1.5vw;
-    margin-bottom: 1.5vw;
+    font-size: 1.5rem;
+    margin-bottom: 2vh;
 }
 
 footer a,.contenido p{
-    font-size: 1.5vw;
+    font-size: 1.2rem;
     font-family: 'Rajdhani', sans-serif;
     color: rgba(240, 240, 240, 0.933);
     text-decoration: none;
-    padding: 1vw;
+    margin: 2vh 0;
 }
 a:hover{
     color: rgb(129 115 223);
@@ -54,87 +54,16 @@ a:hover{
 @media all and (max-width:1050px){
     #contenedor-footer {
         text-align: center;
-        margin-bottom: 5vw;
+        margin-bottom: 5vh;
     }
-
     footer nav{
         width: 50%;
     }
-
     footer .contenido{
         width: 50%;
         background: transparent;
     }
-
-    h4 {
-        font-size: 3.5vw;
-    }
-
-    footer a, .contenido p {
-        font-size: 2.5vw;
-        padding: 1.5vw;
-    }
-
     footer .contacto {
-        margin-top: 4vw;
+        margin-top: 2vh;
     }
-
-    #copyright p {
-        font-size: 2.5vw;
-    }
-    
-}
-
-@media all and (max-width:750px){
-    #contenedor-footer {
-        margin-bottom: 7vw;
-    }
-
-
-    h4 {
-        font-size: 4vw;
-    }
-
-    footer a, .contenido p {
-        font-size: 3vw;
-        padding: 2vw;
-    }
-
-    footer .contacto {
-        margin-top: 6vw;
-    }
-
-    #copyright p {
-        font-size: 3vw;
-    }
-    
-}
-
-@media all and (max-width:550px){
-    footer {
-        margin: 20vw 10vw 3vw 10vw;
-    }
-    
-    #contenedor-footer {
-        margin-bottom: 9vw;
-    }
-
-
-    h4 {
-        font-size: 4.4vw;
-    }
-
-    footer a, .contenido p {
-        font-size: 4vw;
-        padding: 3vw;
-    }
-
-    footer .contacto {
-        margin-top: 7vw;
-    }
-
-    #copyright p {
-        font-size: 4vw;
-    }
-    
 }

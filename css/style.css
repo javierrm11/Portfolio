@@ -17,33 +17,32 @@ body{
     background-size: cover;
     margin: 0px;
 }
+#page-initial{
+    height: 85vh;
+    align-content: center;
+    padding: 0 5%;
+}
 
 #title{
-    align-content: center;
-    height: 85vh;
-    text-align: -webkit-center;
+    place-items: center;
+    text-align: center;
 }
 h1{
     font-family: 'Orbitron', sans-serif;
-    font-size: 4vw;
+    font-size: 4rem;
     font-weight: bolder;
     color: white;
     width: fit-content;
-    padding: 4vw;
+    padding: 2vh 4vw;
     background-color: rgb(129 115 223);
 }
 h2{
     font-family: 'Orbitron', sans-serif;
     font-weight: 100;
-    margin-top: 3vw;
     color: white;
-    font-size: 2vw;
+    font-size: 2.5rem;
     letter-spacing: 6px;
     width: fit-content;
-    overflow: hidden;
-    white-space: nowrap;
-    border-right: 0.15em solid rgb(129 115 223);
-    animation: typing 4s steps(32) 1s 1 normal both, blink 1s steps(1) infinite;
 }
 
 #title img{
@@ -62,47 +61,42 @@ h2{
     transition: filter 0.1s ease-in-out;
 }
 #page-initial-info{
-    margin: 5% 10%;
+    margin: 20%;
     text-align: -webkit-center;
 }
 
 #page-initial-info .subtitle {
-    font-size: 1.5vw;
+    font-size: 1.5rem;
     font-family: 'Rajdhani', sans-serif;
     font-weight: 100;
     color: rgba(240, 240, 240, 0.933);
     text-transform: uppercase;
-    margin-bottom: 1vw;
 }
 #page-initial-info h3{
-    font-size: 3vw;
+    font-size: 3rem;
     font-family: 'Orbitron', sans-serif;
     font-weight: bolder;
     color: rgb(129 115 223);
-    width: 67%;
-    text-align: center;
 }
 #p-info-text{
-    font-size: 1.5vw;
+    font-size: 1.5rem;
     font-family: 'Rajdhani', sans-serif;
     font-weight: 100;
     color: rgba(240, 240, 240, 0.933);
-    margin-top: 4vw;
-    width: 40%;
+    margin: 0 20%;
 }
 #p-mas{
-    font-size: 1.5vw;
+    font-size: 1.5rem;
     font-family: 'Rajdhani', sans-serif;
     color: rgba(240, 240, 240, 0.933);
-    margin-top: 4vw;
-    margin-bottom: 4vw;
+    margin: 4vh 0;
 }
 #page-initial-info a{
     text-decoration: none;
-    font-size: 2vw;
+    font-size: 2rem;
     font-family: 'Orbitron', sans-serif;
     text-transform: uppercase;
-    padding: 1.5vw;
+    padding: 1vh 2vw;
     border: 4px solid white;
     color: white;
 }
@@ -112,15 +106,14 @@ h2{
     border-color: rgb(129 115 223);
 }
 
-
 #page-container-info{
-    margin-top: 2vw;
+    margin: 10vh 0;
 }
-#text-transition{
+#text-transition {
     background-color: rgb(129 115 223);
-    padding: 2vw;
-    margin-top: 4vw;
-    font-size: 1.5vw;
+    padding: 2%;
+    margin: 0;
+    font-size: 1.5rem;
     font-family: 'Rajdhani', sans-serif;
     color: black;
     text-align: center;
@@ -129,22 +122,25 @@ h2{
 
 .container-flex{
     display: flex;
+    gap: 2%;
 }
 .container-flex img{
     flex: 1;
+    object-fit: cover;
 }
 .flex-info{
     flex: 1;
-    margin: 3vw;
     display: flex;
+    margin: 2%;
+    gap: 3vh;
 }
 .flex-info h4{
-    font-size: 3vw;
+    font-size: 2rem;
     font-family: 'Orbitron', sans-serif;
     font-weight: 600;
     color: rgb(129 115 223);
     flex: 5;
-    margin-right: 5vw;
+    margin: 0;
 }
 .flex-info div{
     flex: 4;
@@ -156,14 +152,14 @@ h2{
     background-color: rgb(129 115 223);
 }
 .flex-info h5{
-    font-size: 1.5vw;
+    font-size: 1.5rem;
     font-family: 'Orbitron', sans-serif;
     color: white;
-    margin-bottom: 1vw;
+    margin-top: 0;
 }
 
 .flex-info p{
-    font-size: 1.5vw;
+    font-size: 1.5rem;
     font-family: 'Rajdhani', sans-serif;
     color: rgba(240, 240, 240, 0.933);
     font-weight: 100;
@@ -171,7 +167,7 @@ h2{
 
 #estadist{
     display: flex;
-    padding: 8vw 10vw;
+    padding: 10vh 10vw;
 }
 .estadist-class{
     flex: 1;
@@ -182,7 +178,7 @@ h2{
     opacity: 0.8;
 }
 .estadist-class h6{
-    font-size: 2vw;
+    font-size: 1.5rem;
     text-align: center;
     color: rgb(129 115 223);
     font-family: 'Orbitron', sans-serif;
@@ -191,7 +187,7 @@ h2{
     margin: 0 4vw;
 }
 .estadist-class p{
-    font-size: 6vw;
+    font-size: 4rem;
     text-align: center;
     color: white;
     margin: 1vw 0;
@@ -199,44 +195,46 @@ h2{
 }
 
 #objetivo{
-    margin: 5vw 10vw;
+    margin: 20vh 10vw;
 }
 #objetivo h3{
-    font-size: 3vw;
+    font-size: 3rem;
     font-family: 'Orbitron', sans-serif;
     color: rgb(129 115 223);
     text-align: center;
     margin-bottom: 2vw;
 }
 #objetivo p{
-    font-size: 1.5vw;
+    font-size: 1.5rem;
     font-family: 'Rajdhani', sans-serif;
     color: rgba(240, 240, 240, 0.933);
     text-align: center;
     margin: 2vw 10vw;
 }
 
-#pasos{
-    margin: 3vw 5vw;
+#pasos {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: .8vw;
     row-gap: 1.8rem;
+    justify-items: center;
+    margin: 20vh 0;
 }
 .paso{
     width: 22vw;
     text-align: -webkit-center;
 }
 .paso-title{
-    font-size: 3vw;
+    margin: 0 0 1vh 0;
+    font-size: 3rem;
     font-family: 'Orbitron', sans-serif;
     color: rgb(129 115 223);
 }
 .paso-desc{
-    font-size: 1.5vw;
+    font-size: 1.5rem;
     font-family: 'Rajdhani', sans-serif;
     color: rgba(240, 240, 240, 0.933);
     text-transform: uppercase;
+    margin: 0;
 }
 .line-2{
     background-color: rgba(240, 240, 240, 0.933);
@@ -247,18 +245,17 @@ h2{
 }
 
 #servicios{
-    padding: 3vw 3vw;
-    margin: 8vw 10vw;
+    padding: 3vh 3vw;
+    margin: 20vh 10vw;
     text-align: -webkit-center;
     border-radius: 25vw;
     box-shadow: 0px 0px 30px rgb(146 130 255);
-    background-color: rgb(146 130 255,0.5);
 }
 
 
 
 #servicios h3{
-    font-size: 4vw;
+    font-size: 3rem;
     font-family: 'Orbitron', sans-serif;
     text-transform: uppercase;
     letter-spacing: 7px;
@@ -267,32 +264,30 @@ h2{
     color: rgb(146 130 255);
 }
 #servicios p{
-    font-size: 1.5vw;
+    font-size: 1.5rem;
     font-family: 'Rajdhani', sans-serif;
-    text-align: center;
-    margin-bottom: 1.5vw;
-    width: 80%;
+    max-width: 80%;
     color: rgb(216 210 255);
 }
 
 #contactame{
     text-align: -webkit-center;
-    margin: 5vw 0;
+    margin: 20vh 0;
     text-align: center;
 }
 #contactame h6{
-    font-size: 1.5vw;
+    font-size: 1.5rem;
     color: rgba(240, 240, 240, 0.933);
     font-family: 'Orbitron', sans-serif;
     text-transform: uppercase;
-    margin-bottom: 3vw;
+    margin-bottom: 3vh;
 }
 #contactame a{
     font-family: 'Orbitron', sans-serif;
     text-transform: uppercase;
-    font-size: 2.5vw;
+    font-size: 2rem;
     color: white;
-    padding: 1.2vw;
+    padding: 1vh 2vw;
     text-decoration: none;
     border: 4px solid white;
     font-weight: bolder;
@@ -306,17 +301,18 @@ h2{
     display: flex;
     margin: 20vh 10vh;
     justify-content: space-evenly;
+    gap: 5vh;
+    align-items: center;
 }
 .grupo-loca{
-    margin-bottom: 3vw;
     flex: 1;
 }
 .grupo-loca img{
-    width: 10vw;
+    max-width: 10vh;
 }
 
 .grupo-loca p{
-    font-size: 1.5vw;
+    font-size: 1.5rem;
     color: rgba(240, 240, 240, 0.933);
     font-family: 'Rajdhani', sans-serif;
     margin-top: 0.5vw;
@@ -324,77 +320,41 @@ h2{
 }
 
 @media all and (max-width:1050px){
-    #title {
-        height: 75vh;
-    }
     #title img {
         display: none;
-    }
-    h1{
-        font-size: 6vw;
-    }
-    #page-initial-info {
-        margin: 8% 10%;
     }
     #page-initial-info .subtitle {
         font-size: 2vw;
         margin-bottom: 2vw;
     }
     #page-initial-info h3, #servicios h3 {
-        font-size: 5vw;
-    }
-    #p-info-text {
-        font-size: 2.5vw;
-        width: 50%;
+        font-size: 2.5rem;
     }
     #p-mas {
-        font-size: 2vw;
-        margin-bottom: 6vw;
-    }
-    #page-initial-info a {
-        font-size: 3vw;
-        padding: 2vw;
-    }
-    #text-transition {
-        padding: 3vw;
-        font-size: 2vw;
+        margin: 3vh 0;
     }
     .container-flex {
         flex-direction: column;
-    }
-    .container-flex img {
-        width: 100%;
     }
     .flex-info {
         width: 100%;
         padding: 3vw;
         margin: 3vw 0;
     }
-    h2 {
-        font-size: 3vw;
+    .estadist-class p {
+        font-size: 3rem;
     }
-    .flex-info h4, #objetivo h3, .paso-title {
-        font-size: 4vw;
+    .estadist-class h6 {
+        font-size: 1.2rem;
     }
-    .flex-info h5 {
-        font-size: 2.5vw;
+    #objetivo h3, .paso-title {
+        font-size: 2.5rem;
     }
-    .flex-info p {
-        font-size: 2vw;
-    }
-
-    #objetivo h3 {
-        margin-bottom: 4vw;
-    }
-    
-    #objetivo p, .paso-desc, #servicios p, #contactame h6, .grupo-loca p {
-        font-size: 2vw;
-    }
-    #pasos {
-        margin: 8vw 5vw;
+    #objetivo p, .paso-desc, #servicios p, .grupo-loca p {
+        font-size: 1.2rem;
     }
     #contactame a {
-        font-size: 3vw;
+        font-size: 1.5rem;
     }
     .grupo-loca img {
         width: 12vw;
@@ -403,53 +363,55 @@ h2{
 }
 
 @media all and (max-width:750px){
-    @keyframes typing {
-        from {
-            width: 0;
-        }
-        to {
-            width: 90%;
-        }
-    }
-    #title {
-        height: 60vh;
+    #page-initial {
+        height: 50vh;
     }
     h1 {
-        font-size: 7vw;
+        font-size: 3rem;
+    }
+    h2{
+        font-size: 1.5rem;
     }
     #page-initial-info .subtitle {
-        font-size: 3vw;
+        font-size: 1.2rem;
         margin-bottom: 3vw;
     }
-    #page-initial-info h3, #servicios h3 {
-        font-size: 6vw;
+    #page-initial-info h3 {
+        font-size: 2rem;
     }
     #p-info-text {
-        font-size: 3.5vw;
-        width: 90%;
-        margin-top: 6vw;
+        font-size: 1rem;
+        margin: 0 10%;
     }
+
     #p-mas {
-        font-size: 3vw;
-        margin-bottom: 8vw;
+        font-size: 1rem;
     }
     #page-initial-info a {
-        font-size: 4vw;
-        padding: 2.5vw;
+        font-size: 1rem;
+        border: 2px solid white;
     }
     #text-transition {
-        padding: 4vw;
-        font-size: 3vw;
+        font-size: 1.2rem;
     }
-    .flex-info h4, #objetivo h3, .paso-title {
-        font-size: 5vw;
+    .flex-info {
+        flex-direction: column;
+        gap: 1vh;
+    }
+    #line {
+        width: 10vw;
+        height: 1vw;
+        margin: 0 0 4vw;
+    }
+    #objetivo h3, .paso-title {
+        font-size: 2rem;
     }
     .flex-info h5 {
-        font-size: 3.5vw;
-        margin-bottom: 2vw;
+        font-size: 1.5rem;
+        margin-bottom: 2vh;
     }
     .flex-info p {
-        font-size: 3vw;
+        font-size: 1.2rem;
     }
     #estadist {
         flex-direction: column;
@@ -463,22 +425,25 @@ h2{
         width: 7vw;
     }
     .estadist-class p {
-        font-size: 10vw;
+        font-size: 4rem;
     }
     .estadist-class h6 {
-        font-size: 3vw;
+        font-size: 1.2rem;
     }
     #objetivo p, .paso-desc, #servicios p, #contactame h6, .grupo-loca p {
-        font-size: 2.5vw;
+        font-size: 1.2rem;
+    }
+    #objetivo p{
+        margin: 0;
     }
     #servicios {
         padding: 5vw;
-        margin: 8vw 0;
+        margin: 20vh 0;
         border-radius: 0vw;
         box-shadow: 0 11px 0px rgb(146 130 255);
     }
-    #contactame h6 {
-        margin-bottom: 5vw;
+    #servicios h3{
+        font-size: 1.5rem;
     }
     .paso {
         width: 45vw;
@@ -490,21 +455,17 @@ h2{
         margin: 10vw 5vw;
     }
     #contactame a {
-        font-size: 3.5vw;
-        padding: 2vw;
+        border: 2px solid white;
     }
     #datos{
         flex-direction: column;
-        margin: 20vh 10vh 10vh 10vh;
-
     }
     .grupo-loca {
         margin-bottom: 15vh;
     }
     .grupo-loca img {
         width: 14vw;
-    }
-    
+    }  
 }
 
 @media all and (max-width:550px){
@@ -516,66 +477,36 @@ h2{
             width: 80%;
         }
     }
-    #title {
-        height: 50vh;
-    }
     h1 {
-        font-size: 8vw;
-    }
-    h2 {
-        margin-top: 6vw;
-        width: fit-content;
-        white-space: normal;
+        font-size: 2rem;
     }
     #page-initial-info {
-        margin: 20% 10%;
+        margin: 20vh 10vw;
     }
-    .flex-info h4, h2 {
-        font-size: 5vw;
+    h2 {
+        font-size: 1.2rem;
     }
     #page-initial-info .subtitle {
-        font-size: 4vw;
+        font-size: 1rem;
         margin-bottom: 7vw;
     }
-    #page-initial-info h3, #servicios h3 {
-        font-size: 7vw;
-    }
-    #p-info-text {
-        font-size: 4.5vw;
-        width: 90%;
-        margin-top: 14vw;
-    }
-    #p-mas {
-        font-size: 4vw;
-        margin-bottom: 10vw;
-        margin-top: 16vw;
-    }
-    #page-initial-info a {
-        font-size: 5vw;
-        padding: 3vw;
-    }
     #text-transition {
-        font-size: 4vw;
+        font-size: 1rem;
+        padding: 3%;
     }
     .flex-info {
         flex-direction: column;
         margin: 10vw 0;
     }
     .flex-info h4{
-        width: 100%;
+        font-size: 1.5rem;
     }
     .flex-info h5 {
-        font-size: 6.5vw;
-        margin-bottom: 6vw;
+        font-size: 1.2rem;
     }
     .flex-info div {
         width: 100%;
         margin: 5vw 0;
-    }
-    #line {
-        width: 10vw;
-        height: 1vw;
-        margin: 0 0 4vw;
     }
     .flex-info p {
         font-size: 5vw;
@@ -584,33 +515,29 @@ h2{
         width: 9vw;
     }
     .estadist-class p {
-        font-size: 12vw;
+        font-size: 3rem;
     }
     .estadist-class h6 {
-        font-size: 4vw;
+        font-size: 1rem;
     }
     #objetivo {
         margin: 15vw 10vw;
     }
     #objetivo h3 {
-        font-size: 9vw;
+        font-size: 1.5rem;
+    }
+    #pasos{
+        grid-template-columns: 1fr;
     }
     #objetivo p{
-        margin: 6vw 0vw;
-        font-size: 4.5vw;
+        font-size: 1rem;
     }
-    .paso-title {
-        font-size: 9vw;
-    }    
-    .paso-desc, #servicios p, #contactame h6, .grupo-loca p {
-        font-size: 4.5vw;
+    #servicios p, #contactame h6, .grupo-loca p {
+        font-size: 1rem;
     }
     .line-2 {
         width: 5vw;
         height: 0.6vw;
-    }
-    #servicios h3 {
-        margin-bottom: 5vw;
     }
     #servicios p {
         width: 90%;
@@ -620,12 +547,8 @@ h2{
         margin: 15vw 0;
         padding: 12vw 5vw;
     }
-    #contactame h6 {
-        margin-bottom: 9vw;
-    }
     #contactame a {
-        font-size: 4.5vw;
-        padding: 2.5vw;
+        font-size: 1.2rem;
     }
     .grupo-loca {
         margin-bottom: 10vw;
@@ -633,7 +556,6 @@ h2{
     .grupo-loca img {
         width: 18vw;
     }
-
 }
 
 
