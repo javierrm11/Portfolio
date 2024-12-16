@@ -1,17 +1,18 @@
 *{
-    margin: 0px;
-    padding: 0px;
     box-sizing: border-box; /*Conseguimos que las cajas no se desborden*/
 }
 
 body{
+    margin: 0;
     background: url(../images/fondo.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 #page-initial-div{
-    padding: 10vw 0;
+    height: 85vh;
+    padding: 0 10vw;
+    align-content: center;
     text-align: center;
 }
 h1, h2,#page-initial-div p, h3, #curriculum h5, #curriculum a{
@@ -28,51 +29,50 @@ p{
 }
 
 h2{
-    font-size: 2.5vw;
+    font-size: 2.5rem;
     font-weight: 400;
     color: rgb(129 115 223);
 }
 h1{
-    font-size: 7vw;
+    font-size: 6rem;
+    margin: 0;
 }
 #page-initial-div p{
-    font-size: 2vw;
-    margin-top: 10vw;
+    font-size: 2rem;
     color: rgb(129 115 223);
 }
 
 #subtitle{
-    padding: 2.5vw;
+    margin: 20vh 0;
+    padding: 2vh 2vw;
     background-color: rgb(129 115 223);
     text-align: center;
 }
 
 #subtitle h3{
-    font-size: 2vw;
+    font-size: 2rem;
     font-weight: 400;
 }
 #historia{
-    margin: 10vw;
+    margin: 20vh 10vw;
     display: flex;
     align-items: center;
+    gap: 5%;
 }
 #historia h4{
     color: rgb(129 115 223);
-    font-size: 5vw;
-    margin-bottom: 2vw;
+    font-size: 3rem;
 }
 #historia p{
     color: rgba(240, 240, 240, 0.933);
-    font-size: 1.5vw;
-    margin-bottom: 2vw;
+    font-size: 1.5rem;
 }
 .carousel-container {
     position: relative;
     flex: 1;
-    height: 25vw;
+    height: 50%;
     overflow: hidden;
-    margin-right: 5vw;
-    margin-top: 8vw;
+    margin-top: 20vh;
 }
 
 .carousel-slide {
@@ -89,10 +89,10 @@ h1{
     position: absolute;
     top: 50%;
     width: auto;
-    padding: 10px;
+    padding: 10px 20px;
     color: white;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.5rem;
     cursor: pointer;
     background-color: rgba(0, 0, 0, 0.5);
     border: none;
@@ -112,27 +112,27 @@ h1{
 }
 #curriculum{
     display: flex;
-    padding: 3vw 10vw;
+    gap: 6%;
+    margin: 20vh 3vw;
     align-items: center;
-    justify-content: end;
+    justify-content: center;
+    place-content: space-evenly;
 }
 #curriculum img {
-    width: 4vw;
+    max-width: 4vh;
     height: fit-content;
     filter: invert(1);
 }
 
 #curriculum h5 {
     color: white;
-    font-size: 2vw;
-    margin-left: 3vw;
+    font-size: 1.5rem;
     font-weight: 400;
 }
 #curriculum a {
     color: rgba(240, 240, 240, 0.933);
     text-decoration: none;
-    font-size: 1.75vw;
-    margin-left: 10vw;
+    font-size: 1.5rem;
     font-weight: 400;
     padding: 1vw 2vw;
     border: 4px solid rgba(240, 240, 240, 0.933);
@@ -145,118 +145,85 @@ h1{
 
 
 
-@media all and (max-width:1000px){
+@media all and (max-width:1050px){
     h2{
-        font-size: 3.5vw;
+        font-size: 2rem;
     }
     h1 {
-        font-size: 9vw;
+        font-size: 5rem;
     }
     #page-initial-div p {
-        font-size: 3vw;
+        font-size: 1.8rem;
     }
     #subtitle {
         padding: 3vw;
     }
     #subtitle h3 {
-        font-size: 2.5vw;
+        font-size: 1.5rem
     }
     #historia{
         flex-direction: column;
     }
     #historia img {
-        width: 100%;
-        margin: 0;
-        height: fit-content;
-    }
-    #historia h4 {
-        margin: 4vw 0 2vw 0;
+        max-width: 100%;
     }
     #historia p {
-        font-size: 2vw;
-        margin-bottom: 3vw;
+        font-size: 1.2rem;
     }
     #curriculum {
         flex-direction: column;
     }
-    #curriculum h5 {
-        margin: 2vw 0;
-        width: 38vw;
-        text-align: center;
-    }
-    #curriculum a {
-        margin-left: 0;
-        width: 38vw;
-        text-align: center;
-    }
     .carousel-container {
         margin-right: 0vw;
+    }
+    #curriculum img {
+        max-width: 8vh;
     }
 
 }
 
 @media all and (max-width:750px){
     #page-initial-div {
-        padding: 12vw 0;
+        height: 60vh;
     }
     h2{
-        font-size: 4vw;
+        font-size: 1.5rem;
     }
     h1 {
-        font-size: 10vw;
+        font-size: 4rem;
     }
     #page-initial-div p {
-        font-size: 3.5vw;
+        font-size: 1.5rem;
     }
     #historia h4 {
-        font-size: 7vw;
-    }
-    #historia p {
-        font-size: 2.5vw;
-    }
-    #curriculum img {
-        width: 7vw;
-        height: fit-content;
+        font-size: 2.5rem;
     }
     #curriculum h5 {
-        margin: 2vw 0;
         text-align: center;
-        width: 38vw;
-        font-size: 4vw;
-    }
-    #curriculum a {
-        margin-left: 0;
-        width: 25vw;
-        text-align: center;
-        font-size: 3vw;
-    }
-    #curriculum {
-        padding: 5vw 10vw;
     }
 }
 @media all and (max-width:550px){
-    #page-initial-div {
-        padding: 14vw 0;
-    }
     h2{
-        font-size: 5vw;
+        font-size: 1rem;
     }
     h1 {
-        font-size: 11vw;
+        font-size: 3rem;
     }
     #page-initial-div p {
-        font-size: 4vw;
+        font-size: 1rem;
     }
     #subtitle h3 {
-        font-size: 3vw;
+        font-size: 1.2rem;
     }
     #historia h4 {
-        font-size: 10vw;
-        margin: 8vw 0 4vw 0;
+        font-size: 2rem;
+    }
+    .prev, .next {
+        padding: 10px;
+        font-size: 1.2rem;
     }
     #historia p {
-        font-size: 3.5vw;
-        margin-bottom: 4vw;
+        font-size: 1rem;
     }
     #curriculum img {
         width: 10vw;
