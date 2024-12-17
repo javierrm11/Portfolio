@@ -1,6 +1,4 @@
 *{
-    margin: 0px;
-    padding: 0px;
     box-sizing: border-box; /*Conseguimos que las cajas no se desborden*/
 }
 body{
@@ -8,12 +6,14 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    margin: 0;
 }
 
 #page-initial-div{
-    padding: 7vw 0 7vw 0;
+    height: 86vh;
     text-align: center;
     background-size: cover;
+    align-content: center;
 }
 h1, h2,#page-initial-div p,#page-initial-div a{
     text-transform: uppercase;
@@ -27,19 +27,19 @@ h1, h2,#page-initial-div a{
     font-family: 'Rajdhani', sans-serif;
 }
 h1{
-    font-size: 4vw;
+    font-size: 4rem;
+    margin: 0;
 }
 #page-initial-div p{
     color: rgb(129 115 223);
-    margin: 2vw 25vw 4vw 25vw;
-    font-size: 1.5vw;
+    margin: 2vh 20vw 4vh 20vw;
+    font-size: 1.5rem;
 }
 #page-initial-div a {
-    margin: 2vw 0;
-    font-size: 1.5vw;
+    font-size: 1.5rem;
     font-weight: 600;
     text-decoration: none;
-    padding: 1vw 2vw;
+    padding: 1vh 2vw;
     background-color: transparent;
     border: 4px solid white;
 }
@@ -51,8 +51,9 @@ h1{
 
 
 #contacto{
-    margin: 10vw;
+    margin: 20vh 10vw;
     display: flex;
+    gap: 5%;
 }
 
 #metodos{
@@ -60,14 +61,12 @@ h1{
 }
 h2{
     color: rgb(129 115 223);
-    font-size: 1.5vw;
+    font-size: 1.5rem;
     font-weight: bold;
-    margin-bottom: 2vw;
 }
 #metodos p{
     color: rgba(240, 240, 240, 0.933);
-    font-size: 1.5vw;
-    margin-bottom: 1vw;
+    font-size: 1.5rem;
 }
 #metodos a{
     color: white;
@@ -81,9 +80,8 @@ h2{
 .contact-form {
     display: flex;
     flex-direction: column;
-    width: 80%;
     background-color: rgb(85 85 85);
-    padding: 2vw;
+    padding: 3vh;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -91,9 +89,9 @@ h2{
 .contact-form input,
 .contact-form textarea {
     border: 1px solid #ddd;
-    margin-bottom: 2vw;
-    padding: 1vw;
-    font-size: 1.2vw;
+    margin-bottom: 2vh;
+    padding: 2vh;
+    font-size: 1.2rem;
     border-radius: 3px;
     font-family: 'Rajdhani', sans-serif;
 }
@@ -104,7 +102,7 @@ h2{
 }
 
 .contact-form button {
-    padding: 1.2vw;
+    font-size: 1.2rem;
     font-family: 'Orbitron', sans-serif;
     background-color: rgba(240, 240, 240, 0.933);
     color: black;
@@ -112,8 +110,8 @@ h2{
     border-radius: 3px;
     cursor: pointer;
     font-weight: bold;
-    font-size: 1.2vw;
     text-transform: uppercase;
+    padding: 2vh;
 }
 
 .contact-form button:hover {
@@ -125,12 +123,11 @@ h2{
     display: grid;
     width: fit-content;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    column-gap: .8vw;
+    column-gap: 1.8vw;
     row-gap: 1.8rem;
 }
 #redes-sociales img{
-    width: 3vw;
-    margin-right: 1vw;
+    width: 5vh;
     object-fit: contain;
 }
 .invertido{
@@ -144,128 +141,81 @@ iframe{
 }
 
 @media all and (max-width:1050px){
-    #page-initial-div {
-        padding: 9vw 0;
-    }
     h1 {
-        font-size: 4.5vw;
+        font-size: 3rem;
     }
     #page-initial-div p {
-        margin: 3vw 25vw 5vw 25vw;
-        font-size: 2vw;
+        font-size: 1.2rem;
     }
     #page-initial-div a {
-        font-size: 2vw;
-        padding: 1vw 3vw;
-    }
-    h2{
-        font-size: 4vw;
+        font-size: 1.2rem;
     }
     #metodos p {
-        font-size: 1.8vw;
-        margin-bottom: 1.8vw;
-    }
-    #redes-sociales {
-        column-gap: .2vw;
-    }
-    #redes-sociales img {
-        width: 4vw;
+        font-size: 1rem;
     }
     .contact-form input, .contact-form textarea {
-        font-size: 1.8vw;
+        font-size: 1rem;
     }
     .contact-form button {
-        font-size: 1.8vw;
+        font-size: 1rem;
     }
 }
 @media all and (max-width:750px){
     #page-initial-div {
-        padding: 12vw 0;
+        height: 60vh;
     }
     h1 {
-        font-size: 6vw;
+        font-size: 2.5rem;
     }
     #page-initial-div p {
-        margin: 4vw 10vw 6vw 10vw;
-        font-size: 2.5vw;
+        margin: 2vh 10vw 4vh 10vw;
+        font-size: 1rem;
     }
     #page-initial-div a {
-        font-size: 3vw;
-        padding: 1.5vw 3vw;
+        border: 2px solid white;
     }
     #contacto{
         flex-direction: column;
-        margin: 10vw 10vw 5vw;
+        gap: 5vh;
     }
     #metodos,#formulario{
         width: 100%;
     }
-    #metodos{
-        margin-bottom: 6vw;
-    }
-    h2{
-        font-size: 5vw;
-    }
-    #metodos p {
-        font-size: 2.5vw;
-        margin-bottom: 1.8vw;
-    }
     #redes-sociales {
-        column-gap: 3.2vw;
+        column-gap: 3.2vh;
     }
     #redes-sociales img {
-        width: 6vw;
+        width: 6vh;
     }
     .contact-form {
-        width: 100%;
-        padding: 4vw;
         border-radius: 10px;
     }
     .contact-form input, .contact-form textarea {
-        font-size: 2.5vw;
-        margin-bottom: 3vw;
-        padding: 2vw;
+        font-size: 1.2rem;
+        margin-bottom: 3vh;
+        padding: 2vh;
     }
     .contact-form button {
-        font-size: 3.5vw;
-        padding: 2.5vw;
+        font-size: 1.2rem;
     }
 }
 @media all and (max-width:550px){
-    #page-initial-div {
-        padding: 14vw 0;
-    }
     h1 {
-        font-size: 7vw;
+        font-size: 2rem;
     }
     #page-initial-div p {
-        margin: 5vw 10vw 7vw 10vw;
-        font-size: 3vw;
+        font-size: 0.8rem;
     }
     #page-initial-div a {
-        font-size: 4vw;
-        padding: 2vw 3vw;
-    }
-    
-    h2{
-        font-size: 6vw;
-    }
-    #metodos p {
-        font-size: 3.5vw;
+        font-size: 0.9rem;
     }
     #redes-sociales img {
-        width: 8vw;
-    }
-    .contact-form {
-        padding: 6vw;
+        width: 5vh;
     }
     .contact-form input, .contact-form textarea {
-        font-size: 3.5vw;
-        margin-bottom: 5vw;
-        padding: 3vw;
+        padding: 1vh;
     }
     .contact-form button {
-        font-size: 4.5vw;
-        padding: 3.5vw;
+        font-size: 1rem;
     }
 }
