@@ -110,16 +110,18 @@ h1{
 #historia-p {
     flex: 1;
 }
-#curriculum{
+#curriculum {
     display: flex;
     gap: 6%;
-    margin: 20vh 3vw;
+    margin: 20vh 0;
+    padding: 3vh 3vw;
+    background-color: rgb(129 115 223);
     align-items: center;
     justify-content: center;
     place-content: space-evenly;
 }
 #curriculum img {
-    max-width: 4vh;
+    max-width: 6vh;
     height: fit-content;
     filter: invert(1);
 }
@@ -226,15 +228,15 @@ h1{
         font-size: 1rem;
     }
     #curriculum img {
-        width: 10vw;
+        width: 7vh;
     }
     #curriculum h5 {
-        font-size: 5vw;
+        font-size: 1.2rem;
         margin: 7vw 0;
     }
     #curriculum a {
-        width: 38vw;
-        font-size: 4vw;
+        font-size: 1.2rem;
+        text-align: center;
     }
     #curriculum {
         padding: 5vw 10vw;
