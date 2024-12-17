@@ -17,6 +17,7 @@ footer .contenido{
     width: 33.33%;
     background: transparent;
     justify-items: center;
+    padding: 0;
 }
 .redes-sociales-footer{
     display: flex;
@@ -47,6 +48,9 @@ footer a,.contenido p{
     color: rgba(240, 240, 240, 0.933);
     text-decoration: none;
     margin: 2vh 0;
+}
+.contenido p{
+    margin: 4vh 0;
 }
 a:hover{
     color: rgb(129 115 223);
