@@ -59,6 +59,9 @@ h2 {
     background-color: rgb(35,35,35);
     padding: 1vw 0;
 }
+#proyectos-div a{
+    text-decoration: none;
+}
 #proyectos-div h3{
     margin: 1vw 0;
     font-size: 2rem;

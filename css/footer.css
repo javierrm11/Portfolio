@@ -1,5 +1,5 @@
 footer{
-    margin: 10vh 10vw 0 10vw;
+    margin: 10vh 5vw 0 5vw;
 }
 
 #contenedor-footer{
@@ -16,7 +16,6 @@ footer nav{
 footer .contenido{
     width: 33.33%;
     background: transparent;
-    justify-items: center;
     padding: 0;
 }
 .redes-sociales-footer{
@@ -67,8 +66,17 @@ a:hover{
     footer .contenido{
         width: 50%;
         background: transparent;
+        justify-items: center;
     }
     footer .contacto {
         margin-top: 2vh;
+    }
+}
+@media all and (max-width:550px){
+    footer h4{
+        font-size: 1rem;
+    }
+    footer a, .contenido p {
+        font-size: 0.8rem;
     }
 }

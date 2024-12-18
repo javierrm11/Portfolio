@@ -1,7 +1,7 @@
 /* Header */
 header{
     padding: 1% 2%;
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(100px);
 }
 header .title {
     font-size: 3rem;
@@ -22,6 +22,7 @@ header nav ul li{
     flex: 1;
     transition: 1s color;
     transition: 1s transform;
+    text-align: center;
 }
 header nav a{
     padding: 1vh 2vw;
@@ -82,7 +83,7 @@ header nav li:hover{
         left: 0;
         width: 100%;
         justify-content: center;
-        height: 60vh;
+        height: 90vh;
         margin: 0;
         
     }
@@ -91,7 +92,7 @@ header nav li:hover{
         padding: 0;
     }
     #menu ul li{
-        flex: 0 0 10vh;
+        flex: 0 0 12vh;
         text-align: center;
         align-content: center;
     }

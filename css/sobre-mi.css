@@ -78,11 +78,12 @@ h1{
 .carousel-slide {
     display: flex;
     transition: transform 0.5s ease;
+    width: 150%;
 }
 
 .carousel-slide img {
-    flex: 1;
-    object-fit: scale-down;
+    flex: 0 0 100%;
+    object-fit: cover;
 }
 
 .prev, .next {
@@ -209,7 +210,7 @@ h1{
         font-size: 1rem;
     }
     h1 {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     #page-initial-div p {
         font-size: 1rem;
